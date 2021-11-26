@@ -1,0 +1,36 @@
+main {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sticky_note {
+    padding: 25px 15px;
+    -webkit-box-shadow: 0 8px 10px -7px #999;
+    -moz-box-shadow: 0 8px 10px -7px #999;
+    box-shadow: 0 8px 10px -7px #999;
+    -webkit-border-bottom-right-radius: 60px 10px;
+    -moz-border-radius-bottom-right: 60px 10px;
+    border-bottom-right-radius: 60px 10px;
+    margin: 10px 5px;
+    width: 200px;
+}
+
+.sticky_note p {
+    font-weight: 900;
+}
+
+.sticky_note span {
+    font-weight: 300;
+}
+
+.sticky_note:nth-child(odd) {
+    background-color: #41a57f;
+}
+
+.sticky_note:nth-child(even) {
+    background-color: rgb(206, 87, 87);
+}
